@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>tictactoegame</title>
+    <link rel="stylesheet" href="style_new.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="tit">Tic Tac Toe</h1>
+        <!--create a div container to show the score of each player-->
+        <div class="score">
+            <p>Player X: <span id="scoreX">0</span>
+            Player O: <span id="scoreO">0</span></p>
+        </div>
+        <!--create board-->
+        <div id="board">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+        <!--give restart button-->
+        <button id="restart">Restart Game</button>
+        <!--to display the game status, create a paragraph tag -->
+        <p id="gamestat">Player X's turn</p>
+    </div>
+    <!--to connect to the javascript login-->
+    <script src="conn_new.js"></script>
+</body>
+</html>
